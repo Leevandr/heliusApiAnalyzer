@@ -26,4 +26,4 @@ app:
 
 logging:
   level:
-    dev.levandr: DEBUG
+    ru.levandr: DEBUG
