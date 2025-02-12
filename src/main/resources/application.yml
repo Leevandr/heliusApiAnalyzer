@@ -1,0 +1,29 @@
+spring:
+  application:
+    name: helius-analyzer
+  datasource:
+    url: jdbc:postgresql://localhost:5432/helius_analyzer
+    username: helius
+    password: helius123
+    hikari:
+      maximum-pool-size: 10
+      minimum-idle: 5
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        jdbc:
+          batch_size: 50
+        format_sql: true
+        show-sql: true
+app:
+  helius:
+    api-key: "5fb68ed7-b3a6-43b0-939c-eb2a4a3357c8"
+    rpc-endpoint: "https://mainnet.helius-rpc.com"
+    ws-endpoint: "wss://mainnet.helius-rpc.com/ws"
+    api-base-url: "https://api.helius.xyz"
+
+logging:
+  level:
+    dev.levandr: DEBUG
