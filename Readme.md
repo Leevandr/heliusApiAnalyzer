@@ -14,7 +14,11 @@ http://localhost:8080/api/analyze/raydium - для получения json в к
 далее работа с пулами(логика протестирована не до конца, могут быть сбои)
 
 http://localhost:8080/api/v1/pools/адрес - для получения пула
+
 http://localhost:8080/api/v1/active - для получения всех активных пулов
+
 http://localhost:8080/api/v1/active - для получения всех активных пулов
+
 http://localhost:8080/api/v1/pools/адрес/deactivate - для деактивации пула внутри бд приложения
+
 http://localhost:8080/api/v1/pools/адрес/status - для получения статуса по конкретному пулу
